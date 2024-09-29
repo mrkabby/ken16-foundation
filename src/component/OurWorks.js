@@ -3,7 +3,7 @@ import WorkImage from '../assets/images/IMG_1350.jpg';  // Replace with actual i
 
 function OurWork() {
   return (
-    <section className="bg-red-600 text-white py-12">
+    <section className="bg-red-600 text-white pt-10  ">
       <div className="container mx-auto px-4">
         {/* Title */}
         <h2 className="text-center text-4xl font-bold mb-8">OUR WORK</h2>

@@ -35,17 +35,17 @@ const NavBar = () => {
       </div>
       <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:w-auto md:flex text-right text-bold  mx-8 md:mt-0 md:border-none text-black`}>
         <Link to="/">
-          <div className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Home</div>
+          <div className="block md:inline-block hover:text-red-500 px-3 py-3 md:border-none lg:text-2xl">Home</div>
         </Link>
         
         <Link to="/about-us">
-          <div className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">About Us</div>
+          <div className="block md:inline-block hover:text-red-500 px-3 py-3 md:border-none lg:text-2xl">About Us</div>
         </Link>
         <Link to="/programs">
-          <div className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Programs</div>
+          <div className="block md:inline-block hover:text-red-500 px-3 py-3 md:border-none lg:text-2xl">Programs</div>
         </Link>
         <Link to="/contact-us">
-          <div className="block md:inline-block hover:text-blue-500 px-3 py-3 md:border-none">Contact Us</div>
+          <div className="block md:inline-block hover:text-red-500 px-3 py-3 md:border-none lg:text-2xl">Contact Us</div>
         </Link>
       </div>
       <div className="hidden md:flex md:w-auto px-2 py-2 md:rounded">
