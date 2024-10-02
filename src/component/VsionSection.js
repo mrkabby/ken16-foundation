@@ -1,5 +1,5 @@
 import React from 'react'
-import ImpactImage from "../assets/images/IMG_1347.jpg";
+import ImpactImage from "../assets/images/kids eating.jpg";
 
 const VisionSection = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkImage from '../assets/images/IMG_1350.jpg';  // Replace with actual image path
+import WorkImage from '../assets/images/IMG_1659.jpg';  // Replace with actual image path
 
 function OurWork() {
   return (

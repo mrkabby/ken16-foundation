@@ -3,7 +3,7 @@ import SDG3 from "../assets/images/SDG 3.png"; // Replace with actual path to SD
 import SDG4 from "../assets/images/SDG 4.png"; // Replace with actual path to SDG 4 image
 import SDG2 from "../assets/images/SDG 2.png"; // Replace with actual path to SDG 2 image
 import SDG6 from "../assets/images/SDG 6.png"; // Replace with actual path to SDG 6 image
-import ImpactImage from "../assets/images/IMG_1347.jpg"; // Replace with actual path to image with children
+import ImpactImage from "../assets/images/Ken female.jpg"; // Replace with actual path to image with children
 
 function SustainableDevelopment() {
   return (
