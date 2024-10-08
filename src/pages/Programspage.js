@@ -40,7 +40,7 @@ const ProgramsPage = () => {
 
         {/* Upcoming Events Section */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-white">Upcoming Events</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-white">Upcoming Events</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {upcomingEvents.map((event, index) => (
               <div key={index} className="bg-white p-4 rounded-lg shadow-md">
@@ -55,7 +55,7 @@ const ProgramsPage = () => {
 
         {/* Past Events Section */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-white">Past Events</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-white">Past Events</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {pastEvents.map((event, index) => (
               <div key={index} className="bg-white p-4 rounded-lg shadow-md">
@@ -70,7 +70,7 @@ const ProgramsPage = () => {
 
         {/* Gallery Section */}
         <section>
-          <h2 className="text-3xl font-bold mb-4 text-white">Gallery</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center text-white">Gallery</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {galleryImages.map((image, index) => (
               <div key={index} className="overflow-hidden rounded-lg shadow-lg">

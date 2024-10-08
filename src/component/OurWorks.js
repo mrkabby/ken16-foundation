@@ -5,8 +5,7 @@ function OurWork() {
   return (
     <section className="bg-red-600 text-white pt-10  ">
       <div className="container mx-auto px-4">
-        {/* Title */}
-        <h2 className="text-center text-4xl font-bold mb-8">OUR WORK</h2>
+        
 
         {/* Top Section with Image */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
