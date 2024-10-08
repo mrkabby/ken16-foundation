@@ -49,7 +49,7 @@ const NavBar = () => {
         </Link>
       </div>
       <div className="hidden md:flex md:w-auto px-2 py-2 md:rounded">
-        <a href="tel:+233535196841">
+        <a href="tel:+233543158680">
           <div className="flex justify-end">
             <div className="flex items-center h-10 w-30 rounded-md bg-red-600 text-white font-medium p-2">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
