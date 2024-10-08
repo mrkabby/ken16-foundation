@@ -24,28 +24,25 @@ const LandingPage = () => {
 
         {/* Right Side: Text Section */}
         <div>
-          <h1 className="text-4xl font-bold text-orange-500 mb-4">Introduction</h1>
+          <h1 className="text-4xl font-bold text-blue-900 mb-4 text- text-center">KEN 16 FOUNDATION</h1>
 
           {/* Help to Give Hope Section */}
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-teal-500">Help To Give Hope.</h2>
+            <h2 className="text-2xl font-bold text-red-500">Pillar To Give Hope.</h2>
             <p className="text-gray-700 mt-2">
-              Welcome to the KEN16 Foundation - a beacon of hope, compassion, and transformative change.
-              Established with a profound commitment to eradicating poverty in rural areas, providing educational
-              resources, and empowering underprivileged children through education and sports, the KEN16 Foundation
-              aims to illuminate the lives of those in need.
+            Ken16 Foundation is a legally registered organization that 
+represents a pillar of hope, resolute in its mission to eradicate rural poverty and uplift the marginalized. Our vision is to empower underprivileged children through education and sports, aiming to be a catalyst for transformative and enduring change. 
+With a sincere commitment to unity and the provision of essential resources, we endeavor to illuminate lives, illuminating the path to a future filled with promise. 
             </p>
           </div>
 
           {/* Help for Happiness Section */}
           <div>
-            <h2 className="text-2xl font-bold text-teal-500">Help For Happiness.</h2>
+            <h2 className="text-2xl font-bold text-red-500">Pillar For Happiness.</h2>
             <p className="text-gray-700 mt-2">
-              Our dedication to creating a positive impact stems from a genuine desire to foster togetherness, provide
-              essential resources, and promote unity through various initiatives, embracing the power of education and
-              recreation. This proposal unveils our vision, objectives, and strategies to achieve sustainable
-              transformation in the lives of the less privileged. Join us on this journey as we strive to make the world
-              a better place, one child at a time.
+            Join us in this journey of compassion and impactful change, as we strive to create a world where every child's dreams and aspirations can take flight. 
+Together, we envisage a world where boundaries are broken, and opportunities flourish for the vulnerable, leaving a timeless imprint of empathy and empowerment on the fabric of society. 
+In unity, we can achieve the extraordinary, fostering a brighter tomorrow for all.
             </p>
           </div>
         </div>
