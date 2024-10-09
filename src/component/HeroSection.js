@@ -12,14 +12,14 @@ const LandingPage = () => {
           <img
             src= {Logo} // Replace with the actual image path
             alt="Ken16 Foundation helping children"
-            className="rounded-full object-cover w-full h-auto"
+            className="rounded-full object-cover w-full h-auto "
           />
           {/* Second Image Overlay (like in the bottom of the main image) */}
-          <img
+          {/* <img
             src={KidsImage} // Replace with the actual image path
             alt="Ken16 Foundation group"
-            className="absolute bottom-0 right-0 w-40 h-auto rounded-lg shadow-lg"
-          />
+            className="absolute bottom-0 right-0 w-40 h-auto rounded-lg shadow-lg max-sm:hidden"
+          /> */}
         </div>
 
         {/* Right Side: Text Section */}

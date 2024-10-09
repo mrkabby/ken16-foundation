@@ -7,6 +7,12 @@ import DeafImage from '../assets/images/school for deaf.jpg';
 import EmpowermentImage from '../assets/images/Empower.jpg';
 import Logo from '../assets/images/ken16f.jpg';
 import Footer from '../component/Footer';
+import Gallery1 from '../assets/images/ken and teacher.jpg';
+import Gallery2 from '../assets/images/all females.jpg';
+import Gallery3 from '../assets/images/serve.jpg';
+import Gallery4 from '../assets/images/kid camera.jpg';
+import Award from '../assets/images/Award.jpg';
+
 
 const ProgramsPage = () => {
   // Mock data for past and upcoming events with images
@@ -19,17 +25,17 @@ const ProgramsPage = () => {
 
   const upcomingEvents = [
     { title: 'Empowerment Program', date: 'November 30, 2024', description: 'There is no joy compared to the joy that comes after given to the underprivileged. Let’s all learn to give not only when we have it in abundance but also with the little we have. And we will make the world a better place to be. God bless you.', image: EmpowermentImage },
-    { title: 'Education for All Seminar', date: 'December 10, 2023', description: 'Promoting education opportunities for underprivileged children.', image: Logo },
+    { title: 'NGO OF The Year', date: 'December 10, 2024', description: 'Promoting education opportunities for underprivileged children.', image: Award },
     { title: 'Community Garden Launch', date: 'January 25, 2024', description: 'Launching a community garden to provide sustainable food sources.', image: Logo },
     { title: 'Youth Sports Day', date: 'February 12, 2024', description: 'A sports day to encourage physical activity and teamwork.', image: Logo },
   ];
 
   // Mock gallery images
   const galleryImages = [
-    { src: Logo , alt: 'Event 1' },
-    { src: Logo, alt: 'Event 2' },
-    { src: Logo, alt: 'Event 3' },
-    { src: Logo, alt: 'Event 4' }
+    { src: Gallery1 , alt: 'Event 1' },
+    { src: Gallery2, alt: 'Event 2' },
+    { src: Gallery3, alt: 'Event 3' },
+    { src: Gallery4, alt: 'Event 4' }
   ];
 
   return (

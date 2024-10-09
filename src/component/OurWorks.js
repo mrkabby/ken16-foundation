@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkImage from '../assets/images/IMG_1659.jpg';  // Replace with actual image path
+import WorkImage from '../assets/images/group pic.jpg';  // Replace with actual image path
 
 function OurWork() {
   return (
@@ -15,7 +15,7 @@ function OurWork() {
           <img
             src={WorkImage}
             alt="Our Work Image"
-            className="w-full h-64 object-cover rounded-lg"
+            className="w-full h-68 object-cover rounded-lg"
           />
         </div>
 
