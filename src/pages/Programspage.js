@@ -12,6 +12,10 @@ import Gallery2 from '../assets/images/all females.jpg';
 import Gallery3 from '../assets/images/serve.jpg';
 import Gallery4 from '../assets/images/kid camera.jpg';
 import Award from '../assets/images/Award.jpg';
+import Gallery5 from '../assets/images/dinner with team.jpg';
+import Gallery6 from '../assets/images/happy kids.jpg';
+import Gallery7 from '../assets/images/dine with.jpg';
+import Gallery8 from '../assets/images/kids eating.jpg';
 
 
 const ProgramsPage = () => {
@@ -25,7 +29,7 @@ const ProgramsPage = () => {
 
   const upcomingEvents = [
     { title: 'Empowerment Program', date: 'November 30, 2024', description: 'There is no joy compared to the joy that comes after given to the underprivileged. Let’s all learn to give not only when we have it in abundance but also with the little we have. And we will make the world a better place to be. God bless you.', image: EmpowermentImage },
-    { title: 'NGO OF The Year', date: 'December 10, 2024', description: 'Promoting education opportunities for underprivileged children.', image: Award },
+    { title: 'NGO Of The Year (Nominee)', date: 'December 10, 2024', description: 'Promoting education opportunities for underprivileged children.', image: Award },
     { title: 'Community Garden Launch', date: 'January 25, 2024', description: 'Launching a community garden to provide sustainable food sources.', image: Logo },
     { title: 'Youth Sports Day', date: 'February 12, 2024', description: 'A sports day to encourage physical activity and teamwork.', image: Logo },
   ];
@@ -35,7 +39,11 @@ const ProgramsPage = () => {
     { src: Gallery1 , alt: 'Event 1' },
     { src: Gallery2, alt: 'Event 2' },
     { src: Gallery3, alt: 'Event 3' },
-    { src: Gallery4, alt: 'Event 4' }
+    { src: Gallery4, alt: 'Event 4' },
+    { src: Gallery5, alt: 'Event 4' },
+    { src: Gallery6, alt: 'Event 4' },
+    { src: Gallery7, alt: 'Event 4' },
+    { src: Gallery8, alt: 'Event 4' }
   ];
 
   return (
