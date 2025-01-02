@@ -18,8 +18,8 @@ function MeetTheTeam() {
       }
     },
     {
-      name: 'Henrietta Gyamfuah',
-      title: 'Treasurer',
+      name: 'Ms. Belinda Efia Bondzie',
+      title: 'Director',
       description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
       image: Henrietta, // Replace with actual image path
       social: {
@@ -40,8 +40,19 @@ function MeetTheTeam() {
       }
     },
     {
-      name: 'Nat Reynolds',
+      name: 'Mr. Raphael Laryea',
       title: 'Chief Accountant',
+      description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
+      image: '', // Replace with actual image path
+      social: {
+        facebook: '#',
+        twitter: '#',
+        instagram: '#'
+      }
+    },
+    {
+      name: 'Mr. Emmanuel Donkor',
+      title: 'Programs Manager/ Organizer',
       description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
       image: '', // Replace with actual image path
       social: {

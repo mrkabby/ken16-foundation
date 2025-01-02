@@ -9,12 +9,15 @@ import Footer from '../component/Footer';
 const AboutUspage = () => {
   return (
     <>
+    <div className="text-center mt-24 px-4 ">
     <Navbar/>
     <VisionSection />
     <SustainableDevelopment/>
     <SustainabilityPlan />
     <MeetTheTeam />
     <Footer />
+    
+    </div>
     </>
    
   )
