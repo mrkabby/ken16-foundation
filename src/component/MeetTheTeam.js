@@ -1,65 +1,42 @@
 import React from 'react';
-import KenAddo from "../assets/images/Ken Addo.jpg"
-import Henrietta from '../assets/images/Henrietta Gyamfuah.jpg'
-import Evans from '../assets/images/Mr. Evans Klof Addo.jpg'
+import KenAddo from "../assets/images/ken.jpg";
+import Belinda from '../assets/images/Belinda.jpg';
+import Evans from '../assets/images/evans.jpg';
+import Raphael from '../assets/images/laryea.jpg';
+import Emmanuel from '../assets/images/emmanuel.jpg';
 
 function MeetTheTeam() {
-    
+
   const teamMembers = [
     {
       name: 'Ken Addo',
       title: 'Founder & CEO',
-      description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
-      image: KenAddo, // Replace with actual image path
-      social: {
-        facebook: '#',
-        twitter: '#',
-        instagram: '#'
-      }
+      description: 'As Founder and CEO, Ken leads the vision and strategic direction of the organization, ensuring alignment with our core mission and values.',
+      image: KenAddo,
     },
     {
       name: 'Ms. Belinda Efia Bondzie',
       title: 'Director',
-      description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
-      image: Henrietta, // Replace with actual image path
-      social: {
-        facebook: '#',
-        twitter: '#',
-        instagram: '#'
-      }
+      description: 'Belinda oversees organizational operations, focusing on growth initiatives, partnerships, and long-term planning.',
+      image: Belinda,
     },
     {
       name: 'Evans Kofi Addo',
       title: 'Director',
-      description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
-      image: Evans, // Replace with actual image path
-      social: {
-        facebook: '#',
-        twitter: '#',
-        instagram: '#'
-      }
+      description: 'Evans supports strategic decision-making and provides leadership across various departments to achieve organizational goals.',
+      image: Evans,
     },
     {
       name: 'Mr. Raphael Laryea',
       title: 'Chief Accountant',
-      description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
-      image: '', // Replace with actual image path
-      social: {
-        facebook: '#',
-        twitter: '#',
-        instagram: '#'
-      }
+      description: 'Raphael manages financial operations, including budgeting, reporting, and ensuring compliance with financial regulations.',
+      image: Raphael,
     },
     {
       name: 'Mr. Emmanuel Donkor',
       title: 'Programs Manager/ Organizer',
-      description: 'Glavi amet ritnisi libero molestie ante ut fringilla purus eros quis from dolor amet.',
-      image: '', // Replace with actual image path
-      social: {
-        facebook: '#',
-        twitter: '#',
-        instagram: '#'
-      }
+      description: 'Emmanuel coordinates programs and events, ensuring seamless execution and alignment with our objectives.',
+      image: Emmanuel,
     }
   ];
 
@@ -78,17 +55,6 @@ function MeetTheTeam() {
               <h3 className="text-xl font-semibold">{member.name}</h3>
               <p className="text-gray-500 mb-2">{member.title}</p>
               <p className="text-gray-700 mb-4">{member.description}</p>
-              <div className="flex justify-center space-x-4">
-                <a href={member.social.facebook} target="_blank" rel="noreferrer">
-                  <i className="fab fa-facebook-f text-blue-600"></i>
-                </a>
-                <a href={member.social.twitter} target="_blank" rel="noreferrer">
-                  <i className="fab fa-twitter text-blue-400"></i>
-                </a>
-                <a href={member.social.instagram} target="_blank" rel="noreferrer">
-                  <i className="fab fa-instagram text-pink-500"></i>
-                </a>
-              </div>
             </div>
           ))}
         </div>
