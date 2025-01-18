@@ -15,7 +15,7 @@ function MeetTheTeam() {
       image: KenAddo,
     },
     {
-      name: 'Ms. Belinda Efia Bondzie',
+      name: 'Belinda Efia Bondzie',
       title: 'Director',
       description: 'Belinda oversees organizational operations, focusing on growth initiatives, partnerships, and long-term planning.',
       image: Belinda,
@@ -27,13 +27,13 @@ function MeetTheTeam() {
       image: Evans,
     },
     {
-      name: 'Mr. Raphael Laryea',
+      name: 'Raphael Laryea',
       title: 'Chief Accountant',
       description: 'Raphael manages financial operations, including budgeting, reporting, and ensuring compliance with financial regulations.',
       image: Raphael,
     },
     {
-      name: 'Mr. Emmanuel Donkor',
+      name: 'Emmanuel Donkor',
       title: 'Programs Manager/ Organizer',
       description: 'Emmanuel coordinates programs and events, ensuring seamless execution and alignment with our objectives.',
       image: Emmanuel,
