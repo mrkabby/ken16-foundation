@@ -2,12 +2,29 @@ import React from 'react';
 import NavBar from './Navbar';
 import Footer from './Footer';
 import DinnerImage from '../assets/images/dinner with.jpg'; // Hero image
-import Gallery1 from '../assets/images/dine with.jpg';
-import Gallery2 from '../assets/images/dinner with team.jpg';
-import Gallery3 from '../assets/images/dinner with.jpg';
+import Gallery1 from '../assets/Dinner with the kids/IMG_1347.jpg';
+import Gallery2 from '../assets/Dinner with the kids/IMG_1348.jpg';
+import Gallery3 from '../assets/Dinner with the kids/IMG_1511.jpg';
+import Gallery4 from '../assets/Dinner with the kids/IMG_1409.jpg';
+import Gallery5 from '../assets/Dinner with the kids/IMG_1502.jpg'; 
+import Gallery6 from '../assets/Dinner with the kids/IMG_1510.jpg';
+import Gallery7 from '../assets/Dinner with the kids/IMG_1582.jpg';
+import Gallery8 from '../assets/Dinner with the kids/IMG_1592.jpg';
+import Gallery9 from '../assets/Dinner with the kids/IMG_1654.jpg';
+import Gallery10 from '../assets/Dinner with the kids/IMG_1648.jpg';
+import Gallery11 from '../assets/Dinner with the kids/IMG_1642.jpg';
+import Gallery12 from '../assets/Dinner with the kids/IMG_1531.jpg';
+import Gallery13 from '../assets/Dinner with the kids/IMG_1476.jpg';
+import Gallery14 from '../assets/Dinner with the kids/IMG_1360.jpg';
+import Gallery15 from '../assets/Dinner with the kids/IMG_1361.jpg';
+import Gallery16 from '../assets/Dinner with the kids/IMG_1362.jpg';
+import Gallery17 from '../assets/Dinner with the kids/IMG_1367.jpg';
+import Gallery18 from '../assets/Dinner with the kids/IMG_1368.jpg';
+import Gallery19 from '../assets/Dinner with the kids/IMG_1365.jpg';
+import Gallery20 from '../assets/Dinner with the kids/IMG_1366.jpg';
 
 const DinnerWithKids = () => {
-  const galleryImages = [Gallery1, Gallery2, Gallery3]; // Add more images as needed
+  const galleryImages = [Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8, Gallery9, Gallery10, Gallery11,Gallery12, Gallery13,Gallery14,Gallery15,Gallery16,Gallery17,Gallery18,Gallery19,Gallery20 ]; // Add more images as needed
 
   return (
     <>

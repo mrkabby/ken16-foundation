@@ -10,6 +10,9 @@ import ChosenChildren from './component/ChosenChildren';
 import LessPrivileged from './component/LessPrivileged';
 import SchoolForDeaf from './component/SchoolForDeaf';
 import EmpowermentProgram from './component/EmpowermentProgram';
+import DisciplesofChrist from "./component/DisciplesofChrist";
+
+
 function App() {
   return (
     <Router>
@@ -26,6 +29,7 @@ function App() {
         <Route path="/less-privileged" element={<LessPrivileged />} />
         <Route path="/school-for-deaf" element={<SchoolForDeaf />} />
         <Route path="/empowerment-program" element={<EmpowermentProgram />} />
+        <Route path="/disciples-of-christ" element={<DisciplesofChrist />} />
         </Routes>
       
     </Router>

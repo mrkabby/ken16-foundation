@@ -7,7 +7,7 @@ import ChosenImage from '../assets/images/chosen children.jpg';
 import DeafImage from '../assets/images/school for deaf.jpg';
 import EmpowermentImage from '../assets/images/Empower.jpg';
 import Footer from '../component/Footer';
-import Award from '../assets/images/Award.jpg';
+import DisciplesofChrist from '../assets/images/IMG-20250125-WA0009.jpg';
 
 const ProgramsPage = () => {
   const pastEvents = [
@@ -47,23 +47,23 @@ const ProgramsPage = () => {
       path: '/empowerment-program',
     },
     {
-      title: 'NGO Of The Year (Nominee)',
-      date: 'December 10, 2024',
-      description: 'Promoting education opportunities...',
-      image: Award,
-      path: '/ngo-award',
+      title: 'Donation to The Disciples of Christ Ministries',
+      date: 'April 21, 2024',
+      description: 'As part of my birthday celebrations...',
+      image: DisciplesofChrist,
+      path: '/disciples-of-christ',
     },
   ];
 
   return (
     <>
       <NavBar />
-      <div className="bg-blue-900 min-h-screen p-8 mt-20">
+      <div className="bg-slate-200 min-h-screen p-8 mt-20">
         <div className="container mx-auto space-y-12">
 
           {/* Past Events Section */}
           <section>
-            <h2 className="text-3xl font-bold mb-4 text-center text-white">Past Events</h2>
+            <h2 className="text-3xl font-bold mb-4 text-center ">Past Events</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {pastEvents.map((event, index) => (
                 <div key={index} className="bg-white p-4 rounded-lg shadow-md">

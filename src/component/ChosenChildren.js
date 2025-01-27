@@ -2,9 +2,9 @@ import React from 'react';
 import NavBar from './Navbar';
 import Footer from './Footer';
 import ChosenImage from '../assets/images/chosen children.jpg'; // Hero image
-import Gallery4 from '../assets/images/happy kids.jpg';
-import Gallery5 from '../assets/images/happy kids.jpg';
-import Gallery6 from '../assets/images/kid camera.jpg';
+import Gallery4 from '../assets/images/IMG-20250125-WA0176.jpg';
+import Gallery5 from '../assets/images/IMG-20250125-WA0177.jpg';
+import Gallery6 from '../assets/images/IMG-20250125-WA0178.jpg';
 
 const ChosenChildren = () => {
   const galleryImages = [Gallery4, Gallery5, Gallery6]; // Add more images as needed

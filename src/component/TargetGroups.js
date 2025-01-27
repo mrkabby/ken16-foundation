@@ -5,7 +5,7 @@ import NaturalDisastersImg from '../assets/images/natural disaster.jpg';  // Rep
 
 function TargetGroups() {
   return (
-    <section className="bg-red-700 text-white py-12">
+    <section className="bg-red-700 text-white py-12 mt-10">
       <div className="container mx-auto px-4">
         {/* Title */}
         <h2 className="text-center text-4xl font-bold mb-10">OUR TARGET GROUPS</h2>

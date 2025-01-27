@@ -5,9 +5,14 @@ import DeafImage from '../assets/images/school for deaf.jpg'; // Hero image
 import Gallery10 from '../assets/images/ken and teacher.jpg';
 import Gallery11 from '../assets/images/group pic.jpg';
 import Gallery12 from '../assets/images/both mnf.jpg';
+import Gallery13 from '../assets/images/IMG-20250125-WA0179.jpg';
+import Gallery14 from '../assets/images/IMG-20250125-WA0181.jpg';
+import Gallery15 from '../assets/images/IMG-20250125-WA0182.jpg';
+import Gallery16 from '../assets/images/IMG-20250125-WA0184.jpg';
+import Gallery17 from '../assets/images/IMG-20250125-WA0185.jpg';
 
 const SchoolForDeaf = () => {
-  const galleryImages = [Gallery10, Gallery11, Gallery12]; // Add more images as needed
+  const galleryImages = [Gallery10, Gallery11, Gallery12, Gallery13, Gallery14, Gallery15, Gallery16, Gallery17]; // Add more images as needed
 
   return (
     <>

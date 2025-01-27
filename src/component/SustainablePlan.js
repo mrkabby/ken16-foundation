@@ -2,7 +2,7 @@ import React from 'react';
 
 function SustainabilityPlan() {
   return (
-    <section className="bg-gray-100 py-12">
+    <section className=" py-12">
       <div className="container mx-auto px-4">
         {/* Title */}
         <h2 className="text-center text-3xl font-bold mb-6">Our Sustainability Plan</h2>

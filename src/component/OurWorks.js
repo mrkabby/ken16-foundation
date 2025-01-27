@@ -3,7 +3,7 @@ import WorkImage from '../assets/images/group pic.jpg';  // Replace with actual 
 
 function OurWork() {
   return (
-    <section className="bg-red-600 text-white pt-10  ">
+    <section className=" text-white pt-10  ">
       <div className="container mx-auto px-4">
         
 
@@ -14,7 +14,7 @@ function OurWork() {
           </div>
           <img
             src={WorkImage}
-            alt="Our Work Image"
+            alt="Our Work"
             className="w-full h-68 object-cover rounded-lg"
           />
         </div>

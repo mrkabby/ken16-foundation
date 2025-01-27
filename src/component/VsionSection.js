@@ -3,7 +3,7 @@ import ImpactImage from "../assets/images/both mnf.jpg";
 
 const VisionSection = () => {
   return (
-    <div className="bg-pink-100 min-h-screen flex justify-center items-center">
+    <div className=" min-h-screen flex justify-center items-center">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Left Column: Vision, Mission, Core Values */}
